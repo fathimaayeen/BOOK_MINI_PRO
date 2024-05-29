@@ -1,0 +1,20 @@
+.button {
+  margin-top: 20px;
+  background-color: #4d94ff;
+  padding: 5px;
+  color: white;
+  border: 0px solid;
+  border-radius: 5px;
+}
+.div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:  #f0f0f0;
+  min-height: 100vh;
+  height: 100%;
+}
+.p {
+  text-align: center;
+}

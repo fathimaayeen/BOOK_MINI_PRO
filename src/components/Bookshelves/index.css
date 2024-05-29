@@ -1,0 +1,33 @@
+.div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Wrap items to next row */
+}
+.to {
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f0;
+}
+.sbutton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+input {
+  display: flex;
+  
+  align-items: center;
+  flex: 1; /* Take remaining space */
+  margin-right: 10px;
+}
+
+.flex-item {
+  flex: 1;
+  min-width: 20vw;
+}
+li {
+  list-style-type: none;
+}
+@media only screen and (max-height: 768px) {
+  
+}

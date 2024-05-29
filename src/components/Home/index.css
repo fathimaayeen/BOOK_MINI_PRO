@@ -1,0 +1,51 @@
+.shop-now-button {
+  margin-top: 20px;
+  background-color: #4d94ff;
+  color: white;
+  border: 0px solid;
+  border-radius: 5px;
+  padding: 10px;
+  align-items: center;
+}
+.loader-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.colo {
+  background-color: transparent;
+  color: black;
+}
+.book-cover {
+  height: 200px;
+  width: 200px;
+}
+.home-container {
+  background-color: #f0f0f0;
+  padding: 5em;
+  min-height: 100vh;
+  height: 100%;
+  margin-bottom: 5em;
+}
+.book-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  color: #1e293b;
+}
+.bg {
+  height: fit-content;
+  border-radius: 20px;
+  padding: 5em;
+  background-color: white;
+}
+
+.r {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

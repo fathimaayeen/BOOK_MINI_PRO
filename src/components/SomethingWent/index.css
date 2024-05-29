@@ -1,0 +1,16 @@
+.bu {
+  margin-top: 20px;
+  background-color: #4d94ff;
+  color: white;
+  border: 0px solid;
+  border-radius: 5px;
+  padding: 10px;
+  align-items: center;
+}
+.d {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}

@@ -1,0 +1,18 @@
+* {
+  color: #3d3c3c;
+}
+.coll {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.icon {
+  margin: 20px;
+}

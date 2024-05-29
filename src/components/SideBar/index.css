@@ -1,0 +1,42 @@
+.sel {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.butt {
+  background-color: transparent;
+  border: 0px solid transparent;
+  color: gray;
+  padding: 10px;
+  cursor: pointer;
+  
+}
+
+.active {
+  padding: 10px;
+  color: rgb(116, 172, 195);
+}
+
+@media only screen and (max-height: 768px) {
+  .sel {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+  }
+  .butt {
+    color: gray;
+    border: 1px solid rgb(116, 172, 195);
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .active {
+    background-color: rgb(116, 172, 195);
+    color: white;
+    border: 1px solid rgb(116, 172, 195);
+    border-radius: 5px;
+  }
+}
